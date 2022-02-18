@@ -4,7 +4,7 @@ class Location {
   double? latitude;
   double? longitude;
 
-  Future<void> getLocation() async {
+  Future<void> getCurrentLocation() async {
     /// Determine the current position of the device.
     ///
     /// When the location services are not enabled or permissions
